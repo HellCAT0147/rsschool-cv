@@ -40,7 +40,7 @@ OOO ALFAKOM STUDY
 * Adobe Photoshop;
 * Microsoft Office.
 
-## Code Example (image. PHP code doesn't work on Git)
+## Code Example
 ``` PHP
 /* get a list of all files in the "uploads" folder and come up with a new name for the new image */
 function newName($dir){
@@ -57,7 +57,6 @@ function newName($dir){
     return $name;
 }
 ```
-![PHP code](PHP_VS_Git_problems.jpg)
 
 ## Interests
 I am fond of reading books on programming, such as: Michael Dawson - Programming in python; David Griffiths, Don Griffiths - Head First Android Programming, as well as taking online courses such as RS School JS/FE.
