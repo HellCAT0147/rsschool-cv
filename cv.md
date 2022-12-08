@@ -6,6 +6,7 @@
 * **Email:** letscheckmail23@gmail.com
 * **Phone:** +998901873153
 * **Location:** Tashkent, Uzbekistan
+* **Discord:** HellCAT (@HellCAT0147)
 * **Telegram:** [@HellCAT23](https://t.me/HellCAT23)
 
 ## Summary
