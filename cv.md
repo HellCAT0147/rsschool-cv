@@ -1,5 +1,5 @@
 # Ilya Bukhairov
-![My photo](photo.jpg)
+![My photo](assets/img/photo.jpg)
 
 23.10.1995
 ## Contacts
