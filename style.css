@@ -1,3 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  color: #a5b8c8;
+  background-color: #252526;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #242424;
+  border: 1px solid #424242;
+}
+
+main .container,
+footer .container {
+  padding: 0 50px;
 }
 
 footer .container {
