@@ -10,7 +10,7 @@
 * **Telegram:** [@HellCAT23](https://t.me/HellCAT23)
 
 ## Summary
-Junior web-developer with basic knowledge of PHP, Java, Python, JavaScript.
+Junior web-developer with basic knowledge of HTML/CSS, JavaScript, PHP, Java, Python.
 
 ## Education
 > 01.09.2018 - 06.07.2022
@@ -28,18 +28,18 @@ OOO ALFAKOM STUDY
 
 ## Job Responsibilities
 1. Alfakom website support;
-1. Frontend development;
-1. Backend development.
+1. Full stack development.
 
 ## Skills
-* PHP + MySQL;
 * HTML + CSS;
-* Java;
-* Python;
 * JavaScript;
 * Git;
 * Adobe Photoshop;
-* Microsoft Office.
+* Figma;
+* PHP + MySQL;
+* Microsoft Office;
+* Java;
+* Python.
 
 ## Code Example
 ``` PHP
