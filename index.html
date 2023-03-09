@@ -85,6 +85,27 @@
       </section>
       <section id="code">
         <h2>Code Example</h2>
+        <pre>
+<span class="code-comment">/* get a list of all files in the "uploads" folder and come up with a new name for the new image */</span>
+
+<span class="code-function">function</span> <span class="code-name-function">newName</span><span class="code-function-bracket">(</span><span class="code-var">$dir</span><span class="code-function-bracket">) {</span>
+    
+    <span class="code-var">$files</span> <span class="code-marks">=</span> <span class="code-name-function">glob</span><span class="code-bracket">(</span><span class="code-var">$dir</span><span class="code-marks">.</span><span class="code-string">'*.*'</span><span class="code-bracket">)</span><span class="code-marks">;</span>
+    <span class="code-var">$i</span> <span class="code-marks">=</span> <span class="code-numbers">0</span>;
+
+    <span class="code-structure">foreach</span><span class="code-bracket">(</span><span class="code-var">$files</span> <span class="code-marks">as</span> <span class="code-var">$file</span><span class="code-bracket">) {</span>
+        <span class="code-var">$file</span> <span class="code-marks">=</span> <span class="code-name-function">pathinfo</span><span class="code-inner-bracket">(</span><span class="code-var">$file</span><span class="code-inner-bracket">)</span><span class="code-marks">;</span>
+        <span class="code-var">$files</span><span class="code-inner-bracket">[</span><span class="code-var">$i</span><span class="code-marks">++</span><span class="code-inner-bracket">]</span> <span class="code-marks">=</span> <span class="code-var">$file</span><span class="code-inner-bracket">[</span><span class="code-string">'filename'</span><span class="code-inner-bracket">]</span><span class="code-marks">;</span>
+    <span class="code-bracket">}</span>
+
+    <span class="code-structure">if</span><span class="code-bracket">(</span><span class="code-name-function">count</span><span class="code-inner-bracket">(</span><span class="code-var">$files</span><span class="code-inner-bracket">)</span> <span class="code-marks">==</span> <span class="code-numbers">0</span><span class="code-bracket">)</span>
+        <span class="code-var">$name</span> <span class="code-marks">=</span> <span class="code-numbers">1</span><span class="code-marks">;</span>
+    <span class="code-structure">else</span>
+        <span class="code-var">$name</span> <span class="code-marks">=</span> <span class="code-name-function">max</span><span class="code-bracket">(</span><span class="code-var">$files</span><span class="code-bracket">)</span> <span class="code-marks">+</span> <span class="code-numbers">1</span><span class="code-marks">;</span>
+    
+    <span class="code-structure">return</span> <span class="code-var">$name</span><span class="code-marks">;</span>
+<span class="code-function-bracket">}</span>
+        </pre>
       </section>
       <section id="languages">
         <h2>Languages</h2>
