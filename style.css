@@ -1,3 +1,159 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  color: #a5b8c8;
+  background-color: #252526;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #242424;
+  border: 1px solid #424242;
+}
+
+main .container,
+footer .container {
+  padding: 0 50px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.photo {
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ffc767;
+}
+
+.profile {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav-list li a, a {
+  color: #a176a9;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.nav-list li a {
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.nav-list li a:hover,
+a:hover,
+h2 {
+  color: #d36444;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  margin: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #ffc767;
+  border-radius: 3px;
+}
+
+.date {
+  position: relative;
+  right: 50px;
+  float: right;
+  margin: 0 0 0 50px;
+  color: #ffc767;
+}
+
+.readable {
+  line-height: 1.5;
+}
+
+/* This part is for coloring code */
+.code-comment {
+  color: #6a9955;
+}
+
+.code-function {
+  color: #569cd6;
+}
+
+.code-name-function {
+  color: #dcdcaa;
+}
+
+.code-function-bracket {
+  color: #ffb517;
+}
+
+.code-bracket {
+  color: #da63a1;
+}
+
+.code-var {
+  color: #9cdcfe;
+}
+
+.code-marks {
+  color: #d4d4d4;
+}
+
+.code-structure {
+  color: #c586c0;
+}
+
+.code-string {
+  color: #ce9178;
+}
+
+.code-inner-bracket {
+  color: #1a9fdb;
+}
+
+.code-numbers {
+  color: #a7ce9b;
+}
