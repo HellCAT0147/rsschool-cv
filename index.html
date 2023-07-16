@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="paraiso-dark.css">
 </head>
 <body>
   <header>
@@ -48,64 +49,66 @@
       </section>
       <section id="summary">
         <h2>Summary</h2>
-        <p>Junior web-developer with basic knowledge of PHP, Java, Python, JavaScript.</p>
+        <p>Junior web-developer with knowledge of HTML/CSS, JavaScript, TypeScript and basic knowledge of PHP, Java, Python.</p>
       </section>
       <section id="education">
         <h2>Education</h2>
         <p class="date">01.09.2018 - 06.07.2022</p>
         <p>St. Petersburg University of Industrial Technologies and Design: Higher School of Technology and Energy</p>
-        <p>Bachelor degree</p>
+        <p>Bachelor's degree</p>
         <p>01.03.02 - Applied Maths and Computer Science</p>
       </section>
       <section id="work">
         <h2>Work Experience</h2>
         <p class="date">01.09.2011 - till now</p>
-        <p>OOO ALFAKOM STUDY (<a href="https://alfakom.uz" target="_blank">Project website</a>)</p>
+        <p><a href="https://alfakom.uz" target="_blank">OOO ALFAKOM STUDY (Project website)</a></p>
+        <p class="date">19.12.2022 - 01.02.2023</p>
+        <p><a href="https://rolling-scopes-school.github.io/hellcat0147-JSFEPRESCHOOL2022Q4/plants/" target="_blank">Plants (Landing page)</a></p>
+        <p class="date">13.02.2023 - 25.02.2023</p>
+        <p><a href="https://rolling-scopes-school.github.io/hellcat0147-JSFEPRESCHOOL2022Q4/momentum/" target="_blank">Momentum (App for relaxation)</a></p>
+        <p class="date">21.03.2023 - 10.04.2023</p>
+        <p><a href="https://rolling-scopes-school.github.io/hellcat0147-JSFE2023Q1/shelter/pages/main/" target="_blank">Shelter (Landing page)</a></p>
+        <p class="date">09.05.2023 - 22.05.2023</p>
+        <p><a href="https://rolling-scopes-school.github.io/hellcat0147-JSFE2023Q1/minesweeper/" target="_blank">Minesweeper (Game)</a></p>
+        <p class="date">12.06.2023 - 03.07.2023</p>
+        <p><a href="https://rolling-scopes-school.github.io/hellcat0147-JSFE2023Q1/rs-css/" target="_blank">CSS Routine Tools (Simulator of CSS styles)</a></p>
+        <p class="date">01.05.2023 - till now</p>
+        <p><a href="https://alfakom.uz/training-courses/" target="_blank">OOO ALFAKOM STUDY (Landing page)</a></p>
       </section>
       <section id="respons">
         <h2>Job Responsibilities</h2>
         <ol>
           <li><a href="https://alfakom.uz" target="_blank">Alfakom website</a> support</li>
-          <li>Frontend development</li>
-          <li>Backend development</li>
+          <li>Full stack development</li>
         </ol>
       </section>
       <section id="skills">
         <h2>Skills</h2>
           <ul class="skills">
-            <li>PHP+MySQL</li>
             <li>HTML+CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>PHP+MySQL</li>
+            <li>Git</li>
+            <li>Node.js</li>
+            <li>Webpack</li>
             <li>Java</li>
             <li>Python</li>
-            <li>JavaScript</li>
-            <li>Git</li>
             <li>Adobe Photoshop</li>
             <li>Microsoft Office</li>
+            <li>Figma</li>
+            <li>ESLint</li>
+            <li>Movavi</li>
+            <li>Audacity</li>
           </ul>
       </section>
       <section id="code">
         <h2>Code Example</h2>
         <pre>
-<span class="code-comment">/* get a list of all files in the "uploads" folder and come up with a new name for the new image */</span>
-
-<span class="code-function">function</span> <span class="code-name-function">newName</span><span class="code-function-bracket">(</span><span class="code-var">$dir</span><span class="code-function-bracket">) {</span>
-    
-    <span class="code-var">$files</span> <span class="code-marks">=</span> <span class="code-name-function">glob</span><span class="code-bracket">(</span><span class="code-var">$dir</span><span class="code-marks">.</span><span class="code-string">'*.*'</span><span class="code-bracket">)</span><span class="code-marks">;</span>
-    <span class="code-var">$i</span> <span class="code-marks">=</span> <span class="code-numbers">0</span>;
-
-    <span class="code-structure">foreach</span><span class="code-bracket">(</span><span class="code-var">$files</span> <span class="code-marks">as</span> <span class="code-var">$file</span><span class="code-bracket">) {</span>
-        <span class="code-var">$file</span> <span class="code-marks">=</span> <span class="code-name-function">pathinfo</span><span class="code-inner-bracket">(</span><span class="code-var">$file</span><span class="code-inner-bracket">)</span><span class="code-marks">;</span>
-        <span class="code-var">$files</span><span class="code-inner-bracket">[</span><span class="code-var">$i</span><span class="code-marks">++</span><span class="code-inner-bracket">]</span> <span class="code-marks">=</span> <span class="code-var">$file</span><span class="code-inner-bracket">[</span><span class="code-string">'filename'</span><span class="code-inner-bracket">]</span><span class="code-marks">;</span>
-    <span class="code-bracket">}</span>
-
-    <span class="code-structure">if</span><span class="code-bracket">(</span><span class="code-name-function">count</span><span class="code-inner-bracket">(</span><span class="code-var">$files</span><span class="code-inner-bracket">)</span> <span class="code-marks">==</span> <span class="code-numbers">0</span><span class="code-bracket">)</span>
-        <span class="code-var">$name</span> <span class="code-marks">=</span> <span class="code-numbers">1</span><span class="code-marks">;</span>
-    <span class="code-structure">else</span>
-        <span class="code-var">$name</span> <span class="code-marks">=</span> <span class="code-name-function">max</span><span class="code-bracket">(</span><span class="code-var">$files</span><span class="code-bracket">)</span> <span class="code-marks">+</span> <span class="code-numbers">1</span><span class="code-marks">;</span>
-    
-    <span class="code-structure">return</span> <span class="code-var">$name</span><span class="code-marks">;</span>
-<span class="code-function-bracket">}</span>
         </pre>
+        <div>
+          <img src="https://www.codewars.com/users/rsschool_36cfedef7c3a59a5/badges/large" alt="codewars logo">
+        </div>
       </section>
       <section id="languages">
         <h2>Languages</h2>
@@ -116,13 +119,13 @@
       </section>
       <section id="interests">
         <h2>Interests</h2>
-        <p class="readable">I am fond of reading books on programming, such as: Michael Dawson - Programming in python; David Griffiths, Don Griffiths - Head First Android Programming, as well as taking online courses such as RS School JS/FE.</p>
+        <p class="readable">I am fond of reading programming books such as: Michael Dawson - Programming in python; David Griffiths, Don Griffiths - Head First Android Programming, as well as taking online courses such as RS School JS/FE, reading and understanding the official documentations.</p>
       </section>
     </div>
   </main>
   <footer>
     <div class="container">
-      <p>&#169; 2022&nbsp;<a href="https://github.com/HellCAT0147">HellCAT0147</a></p>
+      <p>&#169; 2023&nbsp;<a href="https://github.com/HellCAT0147">HellCAT0147</a></p>
       <p>
         <a href="https://rs.school/js/" target="_blank">
           <img src="assets/svg/rs_school_js.png" alt="logo rs_school" width="115" height="41">
@@ -130,5 +133,19 @@
       </p>
     </div>
   </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>
+    const highlightedCode = hljs.highlight(`// A generic curryPartial() function allows either currying or partial application.
+
+function curryPartial(fn, ...args2) {
+
+  function curried(...args1) {
+    return args1.length >= fn.length ? fn.apply(this, args1) : curried.bind(this, ...args1);
+  }
+
+  return args2 != undefined ? curried(...args2) : curried();
+}`, { language: 'js' }).value;
+    document.querySelector('pre').innerHTML = highlightedCode;
+  </script>
 </body>
 </html>
